@@ -1,0 +1,2 @@
+# Customer-Segmentation-Clustering
+Customer Segmentation refers to the process of identifying several segments of customers from a pool of customer database which helps businesses to target potential user base. The technique of customer segmentation depends upon various differentiating factors such as demographics, economy status, geography etc. All these factors plays a vital role in the customer segmentation process. In order to perform this project, clustering mechanism of Unsupervised Machine Learning Algorithm is used specifically K-Means Clustering. 
