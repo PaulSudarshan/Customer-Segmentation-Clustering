@@ -1,16 +1,24 @@
 # Customer-Segmentation-Clustering
 Customer Segmentation refers to the process of identifying several segments of customers from a pool of customer database which helps businesses to target potential user base. The technique of customer segmentation depends upon various differentiating factors such as demographics, economy status, geography etc. All these factors plays a vital role in the customer segmentation process. Companies that deploy customer segmentation are under the notion that every customer has different requirements and require a specific marketing effort to address them appropriately. In order to achieve this target, clustering mechanism of Unsupervised Machine Learning Algorithm is used specifically K-Means Clustering. Lets see how this is implemented.
-
+![](images/Segmentation-2.png)
 # Dataset Details :
 The dataset contains transactions on an e-commerce website between the period Feb 2018 to Feb 2019 from customers across different countries.
 File: transaction_data.csv Columns
+
 UserId - Unique identifier of a user.
+
 TransactionId - Unique identifier of a transaction. If the same TransactionId is present in multiple rows, then all those products are bought together in the same transaction.
+
 TransactionTime - Time at which the transaction is performed
+
 ItemCode - Unique identifier of the product purchased
+
 ItemDescription - Simple description of the product purchased
+
 NumberOfItemsPurchased - Quantity of the product purchased in the transaction
+
 CostPerItem - Price per each unit of the product
+
 Country - Country from which the purchase is made.
 
 # Tools and Libraries Used :
@@ -31,6 +39,7 @@ Country - Country from which the purchase is made.
 8. The clusters are visualised using the Scatterplot and various analysis are performed to based on the results for business purposes.
 
 # Results
-
+![](images/elbowplot.jpg)
+![](images/segmentation.jpg)
 # Conclusion
 Hence, we developed a Customer Segmentation Model using a class of machine learning known as Unsupervised Learning. Specifically, we made use of a clustering algorithm called K-means clustering. We analyzed and visualized the data and then proceeded to implement our algorithm. 
